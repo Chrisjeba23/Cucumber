@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-18T15:42:09.560Z",
+        "line": 2,
+        "name": "Search a product in Amazon website",
+        "description": "",
+        "id": "search-functionality-in-amazon-website;search-a-product-in-amazon-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5258886900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Launch Amazon website",
+            "match": {
+              "location": "Stepdefinition.S06IntegerandString.launch_amazon_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 920886400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Provide \"iPhone\" mobiles with price below 50000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhone\"",
+                  "offset": 8
+                },
+                {
+                  "val": "50000",
+                  "offset": 42
+                }
+              ],
+              "location": "Stepdefinition.S06IntegerandString.provide_mobiles_with_price_below(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2495344900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter button press",
+            "match": {
+              "location": "Stepdefinition.S06IntegerandString.enter_button_press()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 809619800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The search results should be displayed",
+            "match": {
+              "location": "Stepdefinition.S06IntegerandString.the_search_results_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality in Amazon website",
+    "description": "",
+    "id": "search-functionality-in-amazon-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/MyCucumberprojectNew/MyCucumberprojectNew/F06IntegerandString.feature",
+    "tags": []
+  }
+]
